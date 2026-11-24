@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Configuración general -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Descripción de la página -->
+    <meta name="description" content="Página web personal y profesional de un técnico de mantenimiento industrial, automatización y sistemas informáticos.">
+
+    <!-- Título del navegador -->
+    <title>Mi web profesional</title>
+
+    <!-- Hoja de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABECERA -->
+    <header>
+        <h1>Mi web profesional</h1>
+        <p>Técnico de mantenimiento industrial y sistemas informáticos</p>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav aria-label="Navegación principal">
+
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#conocimientos">Conocimientos</a>
+        <a href="#contacto">Contacto</a>
+
+        <!-- Botón para cambiar el tema -->
+        <button id="boton-tema" type="button">
+            Tema claro
+        </button>
+
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- SECCIÓN INICIO -->
+        <section id="inicio">
+
+            <h2>Bienvenido a mi página web</h2>
+
+            <p>
+                Este es mi primer proyecto de desarrollo web.
+            </p>
+
+            <p>
+                Aquí compartiré mi experiencia profesional,
+                mis conocimientos técnicos y mis proyectos.
+            </p>
+
+        </section>
+
+        <!-- SECCIÓN SOBRE MÍ -->
+        <section id="sobre-mi">
+
+            <h2>Sobre mí</h2>
+
+            <p>
+                Soy técnico de mantenimiento industrial
+                con experiencia en automatización y
+                soporte informático.
+            </p>
+
+            <p>
+                Actualmente estoy ampliando mis conocimientos
+                en administración de sistemas informáticos
+                y redes.
+            </p>
+
+        </section>
+
+        <!-- SECCIÓN CONOCIMIENTOS -->
+        <section id="conocimientos">
+
+            <h2>Mis conocimientos</h2>
+
+            <!-- Botón para mostrar u ocultar conocimientos -->
+            <button
+                id="boton-conocimientos"
+                type="button"
+                aria-expanded="true"
+                aria-controls="lista-conocimientos">
+                Ocultar conocimientos
+            </button>
+
+            <!-- Contenedor de conocimientos -->
+            <div id="lista-conocimientos">
+
+                <h3>Sistemas informáticos</h3>
+
+                <ul>
+                    <li>Windows Server</li>
+                    <li>Linux</li>
+                    <li>Redes informáticas</li>
+                    <li>Virtualización</li>
+                </ul>
+
+                <h3>Automatización industrial</h3>
+
+                <ul>
+                    <li>PLC Siemens</li>
+                    <li>SCADA</li>
+                    <li>Profinet y Profibus</li>
+                    <li>Mantenimiento electromecánico</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- SECCIÓN CONTACTO -->
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <p>
+                Próximamente añadiré un medio de
+                contacto profesional.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <p>
+            &copy; <span id="anio"></span>
+            - Mi web profesional
+        </p>
+
+    </footer>
+
+    <!-- CARGA DE JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
